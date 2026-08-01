@@ -1,8 +1,30 @@
 aid: raisin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raisin.png
 name: Raisin
-description: 'Raisin is a company surfaced as a portfolio company of index-ventures, ribbit-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Raisin is a fintech savings and investment marketplace that gives consumers
+  access to high-yield savings accounts, CDs, and cash deposit products from a
+  network of banks and credit unions through a single account and login.
+  Founded in Berlin (originally as WeltSparen / SavingGlobal) and operating in
+  the US, Germany, and across Europe, Raisin connects more than one million
+  customers with partner banks, handling onboarding, KYC, account management,
+  and deposit brokerage. Its sister entity Raisin Bank provides a
+  Banking-as-a-Service platform for fintechs. Raisin exposes no public,
+  self-serve developer API or documentation portal; integrations are
+  partner-only and its consumer surface is web and mobile apps. Backed by Index
+  Ventures and Ribbit Capital, this profile was added to the API Evangelist
+  network as a fintech portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/raisin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Savings
+- Deposits
+- Banking
+- Marketplace
+- Banking-as-a-Service
+- Wealth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +53,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://raisin.com
+  url: https://www.raisin.com
+- type: HelpCenter
+  url: https://support.raisin.com/hc/en-us
+- type: SignUp
+  url: https://app.raisin.com/en-us/auth/register/
+- type: Login
+  url: https://app.raisin.com/en-us/auth/login/
+- type: Pricing
+  url: https://www.raisin.com/en-us/explore-products/
+- type: TermsOfService
+  url: https://assets-us.raisin.com/en-us/raisin_terms_of_service_cash_account.pdf
+- type: PrivacyPolicy
+  url: https://assets-us.raisin.com/en-us/privacy_policy.pdf
+- type: DomainSecurity
+  url: security/raisin-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
