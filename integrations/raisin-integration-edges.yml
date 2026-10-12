@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/raisin/integrations
+- https://n8n.io/integrations/raisin/
+- https://composio.dev/toolkits/raisin
+- https://monid.ai/tools/raisin
+checked:
+- https://composio.dev/toolkits/raisin
+- https://monid.ai/tools/raisin
+- https://n8n.io/integrations/raisin/
+- https://zapier.com/apps/raisin/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
